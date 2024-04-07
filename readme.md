@@ -36,3 +36,6 @@ docker-compose --file ./docker/compose/docker-compose.yml down
 # Or use the following npm command 
 npm run docker-down
 ```
+
+## Details
+* [Docker Container for Jupyter Notebook with Built-in Node.js, TypeScript, and Deno Cores](https://medium.com/a-layman/docker-container-for-jupyter-notebook-with-built-in-node-js-typescript-and-deno-cores-7106dc89c704)
