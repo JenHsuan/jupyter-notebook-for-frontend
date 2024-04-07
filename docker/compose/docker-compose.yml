@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+    jupyter:
+        image: jupyter
+        container_name: jupyter
+        command: >
+            bash -c "sudo jupyter notebook --ip=* --port=8888 --NotebookApp.token='admin' --allow-root"
+        ports:
+            - 8888:8888
+        restart: always
+        volumes:
+            - ../../data:/app

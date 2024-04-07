@@ -1,0 +1,13 @@
+{
+  "name": "jupyter-notebook-for-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker-up": "docker-compose --file ./docker/compose/docker-compose.yml up -d",
+    "docker-down": "docker-compose --file ./docker/compose/docker-compose.yml down",
+    "docker-build": "docker build -t jupyter -f ./docker/images/Dockerfile ./"
+  },
+  "author": "",
+  "license": "ISC"
+}
