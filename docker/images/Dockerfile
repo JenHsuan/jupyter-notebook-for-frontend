@@ -20,7 +20,7 @@ RUN sudo pip3 install notebook
 RUN sudo apt-get install -y node.js npm \
   && sudo npm cache clean -f \
   && sudo npm i --unsafe-perm \
-  && npm install -g n \
+  && sudo npm install -g n \
   && sudo n 18.20.1
 
 # install ijavascript
