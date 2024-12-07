@@ -6,7 +6,7 @@
   "scripts": {
     "docker-up": "docker-compose --file ./docker/compose/docker-compose.yml up -d",
     "docker-down": "docker-compose --file ./docker/compose/docker-compose.yml down",
-    "docker-build": "docker build -t jupyter -f ./docker/images/Dockerfile ./"
+    "docker-build": "docker build -t jupyter -f ./docker/images/Dockerfile ./ --platform linux/x86_64"
   },
   "author": "",
   "license": "ISC"
